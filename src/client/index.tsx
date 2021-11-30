@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { hot } from 'react-hot-loader/root';
 
+import ErrorBoundary from './components/error-boundary';
 import App from './components/app';
 
 import './css/style.scss';
 
 const HotApp = hot(() => (
-  <App />
+  <ErrorBoundary>
+    <App />
+  </ErrorBoundary>
 ));
 
 ReactDOM.render(

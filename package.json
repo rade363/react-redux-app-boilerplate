@@ -1,7 +1,7 @@
 {
-  "name": "react-app-boilerplate",
+  "name": "react-redux-app-boilerplate",
   "version": "1.0.0",
-  "description": "React app boilerplate",
+  "description": "React Redux Thunk app boilerplate",
   "main": "index.js",
   "scripts": {
     "check:code": "tsc --noEmit",
@@ -20,15 +20,15 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rade363/react-app-boilerplate.git"
+    "url": "git+https://github.com/rade363/react-redux-app-boilerplate.git"
   },
   "engines": {
     "node": ">=12"
   },
   "bugs": {
-    "url": "https://github.com/rade363/react-app-boilerplate/issues"
+    "url": "https://github.com/rade363/react-redux-app-boilerplate/issues"
   },
-  "homepage": "https://github.com/rade363/react-app-boilerplate#readme",
+  "homepage": "https://github.com/rade363/react-redux-app-boilerplate#readme",
   "dependencies": {
     "axios": "0.24.0",
     "cross-env": "7.0.3",
@@ -68,6 +68,7 @@
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-react": "7.27.1",
     "eslint-plugin-react-hooks": "4.3.0",
+    "file-loader": "6.2.0",
     "html-webpack-plugin": "5.5.0",
     "jest": "27.3.1",
     "jest-fetch-mock": "3.0.3",
@@ -89,6 +90,6 @@
     "webpack-dev-middleware": "5.2.2",
     "webpack-dev-server": "4.5.0",
     "webpack-hot-middleware": "2.25.1",
-    "webpack-node-externals": "^3.0.0"
+    "webpack-node-externals": "3.0.0"
   }
 }
